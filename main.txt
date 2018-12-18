@@ -1,0 +1,36 @@
+			OUTLINE
+Objectives
+Introduction
+Reading items
+Summary
+Assignments
+Assignment format
+Good practices / Tips for you
+	
+
+		MAIN HEADING
+Brief introduction of content to read about
+
+		Sub_heading 
+ - Objectives
+ - Summary
+ - Assignments
+  - work
+  - format
+  - delivery mode
+ - Tips / Good practices
+
+		LEFT CONTENT
+Traversable content related to Main Main Content and recent content
+
+	Path
+- Main Topics
+- Recent Items
+- Completed
+- Miscellaneous
+
+		RIGHT CONTENT
+Essential content
+
+		BOTTOM CONTENT
+footer contents		

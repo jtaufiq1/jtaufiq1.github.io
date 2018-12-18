@@ -1,0 +1,78 @@
+* {
+    margin: 3px auto;
+    width: 96%;
+    padding: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vh;
+    box-sizing: border-box;
+}
+body {
+    background-color:  #EBD9F6;
+}
+h1, h2, h3, dt {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: crimson;
+    background-color: aliceblue;
+}
+
+div {
+    border: 1px double green;
+    float: left;
+    border-radius: 0.4em;
+}
+
+#left-content {
+    margin-right: 5px;
+    width: 16%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/* Navigation List */
+
+a, li {
+    text-decoration: none;
+}
+.list ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    display: inline-block;
+    font-variant: small-caps;
+    background-color: #ffeeff;
+    border: 1px solid blue;
+    border-radius: 0.8em;
+    color: black;
+}
+/* Main Page Content */
+#main-content {
+    width: 58%;
+}
+/* Essential Page Content */
+#right-content {
+    width: 25%;
+    float: right;
+}
+/* Page Footer*/
+#footer {
+    width: 100%;
+    clear: both;
+    border-radius: 0em 0em 0.5em 0.5em;
+}
+/* Miscellaneous */
+#footer p { 
+    text-align: center;
+}
+
+q,cite {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.7em;
+}
+marquee {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+}
+span {
+    color: crimson;
+    font-family: cursive;
+    text-decoration: underline overline;
+}
