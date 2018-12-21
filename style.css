@@ -1,0 +1,35 @@
+/* Collapsible Content */
+.collapsible {
+    font-size: 3vh;
+    text-align: center;
+    cursor: pointer;
+    padding: 18px;
+    color: #444;
+    background-color: #ccc;
+    outline: none;
+    width: 100%;
+}
+
+/* Background Color of Active Collapsible*/
+.active, .collapsible:hover {
+    background-color: #cfcf;
+}
+/* Unicode Character to collapsible content */
+.collapsible:after {
+    content: '\02795'; /* Add plus symbol */
+    float: right;
+    font-size: 18px;
+    margin-left: 5px;
+}
+.active:after {
+    content: '\02796'; /* Add Minus symbol */
+}
+
+/* Content to Collpase: Hidden by default */
+.content {
+    display: none;
+    overflow: hidden;
+    color:blue#f1f1f1;
+    max-height: 0;
+    transition: max-height 2s ease-in;
+}
