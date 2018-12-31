@@ -1,0 +1,20 @@
+Lesson 1 Exercise 1 Guide - How computer Operates
+
+To Do
+
+Write a simple article on computer in a text format (exe1.txt)
+* What is a computer?
+* How computer inteprets data
+* how computer Operates
+* conclude
+
+Submission Format
+Submit on github
+Follow the link https://github.com/
+create an account using your gmail account
+comfirm your account
+
+go back to github and create a repository named checkGh
+initialize the README.md file with
+Welcome to github Aisha
+this repository contains exercises and other items
