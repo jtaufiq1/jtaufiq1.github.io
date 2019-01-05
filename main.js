@@ -1,6 +1,10 @@
-
+window.onload = function() {
+    alert("window Loaded");
+    collapsible();
+    }
+}
 // Collapsible Function
-function collpasible() {
+function collapsible() {
     // List of Collapsible content
     var coll = document.getElementsByClassName('collapsible');
 
@@ -13,7 +17,7 @@ function collpasible() {
             if(content.style.display === "block") {
                 content.style.display = "none";
             } else {
-                content.style.display = none;
+                content.style.display = "block";
             }
 
             // Add animation
@@ -31,7 +35,7 @@ function collpasible() {
  * @param {*} name 
  * class of collapsible content
  */
-function collpasible(name) {
+function collapsible(name) {
     // List of Collapsible content
     var coll = document.getElementsByClassName(name);
 
@@ -44,7 +48,7 @@ function collpasible(name) {
             if(content.style.display === "block") {
                 content.style.display = "none";
             } else {
-                content.style.display = none;
+                content.style.display = "block";
             }
 
             // Add animation
