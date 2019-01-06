@@ -77,8 +77,6 @@ marquee {
 }
 span {
     color: crimson;
-    font-family: cursive;
-    text-decoration: underline overline;
 }
 
 @media screen and (max-width: 730px) {
