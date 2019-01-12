@@ -99,27 +99,24 @@ span {
 .next {
     background-color: green;
 }
+iframe {
+    width: 420px;
+    height: 315px;
+}
 @media screen and (max-width: 730px) {
     body {
         font-size: 1vw;
-        width: 100%;
     }
     h1, h2, h3, h4, dt {
         width: 56%;
         text-align: center;
     }
-    div {
-        width: 100%;
-    }
-    dd {
+    body, div, iframe, dd, img {
         width: 100%;
     }
     #left-content, #right-content, #main-content {
         width: 100%;
         margin-top: 3px;
-    }
-    img {
-        width: 100%;
     }
     a {
         display: block;

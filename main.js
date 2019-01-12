@@ -1,8 +1,3 @@
-window.onload = function() {
-    alert("window Loaded");
-    collapsible();
-    }
-
 // Collapsible Function
 function collapsible() {
     // List of Collapsible content
