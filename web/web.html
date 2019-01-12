@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>The Web</title>
     <link rel="stylesheet" href="../main.css">
+    <style>
+        .button {
+            color: gold;
+            background-color: black;
+        }
+        a[type="button"]::before {
+            content: "Read -> ";
+        }
+    </style>
 </head>
+
 <body>
     <a href="../index.html">Home page</a>
     <h1>The Web (WWW)</h1>
     <article>
         <section>
-            <h2>The World Wide Web</h2>
             <p>
                 the <b>World Wide Web</b> (WWW) is an information space where
                 documents and other web resources are identified by <b>Uniform
                     Resource Locators
                 </b> (URLs), interlinked by hypertext links and accessible through
-                 the internet.
+                the internet.
             </p>
         </section>
         <section>
@@ -34,22 +44,39 @@
                 on the internet.
             </p>
             <dl>
+                <dt>HTTP</dt>
+                <dd>
+                    HTTP: Hypertext Transfer Protocol. Allows for the retrieval of linked resources from across the
+                    web.
+                </dd>
                 <dt>URIs/URLs</dt>
                 <dd>
-                        A <abbr title="Uniform Resource Identifier">URI</abbr> is a string of characters used to identify a resource on a computer network,
-                         of which the best known type is the web address or
-                          <abbr title="Uniform Resource Locator">URL</abbr>.
+                    A <abbr title="Uniform Resource Identifier">URI</abbr> is a string of characters used to identify a
+                    resource on a computer network,
+                    of which the best known type is the web address or
+                    <abbr title="Uniform Resource Locator">URL</abbr>.
                 </dd>
 
                 <dt>Domain Name</dt>
-                <dd></dd>
+                <dd>
+                    A domain is a user-friendly naming system that allows people to easily navigate web servers and web
+                    pages.
+                    Rather than making people type in an IP address whenever they want to access a certain
+                    web page (like 197.251.240.131), websites are instead assigned easy-to-remember character strings,
+                    called domains.
+                </dd>
+
+                <dt>HTML</dt>
+                <dd>
+                    HTML: HyperText Markup Language. The markup (formatting) language for the web.
+                </dd>
 
                 <dt>Web pages</dt>
                 <dd>
-                    Web pages are primarily text documents formatted and annotated with 
+                    Web pages are primarily text documents formatted and annotated with
                     <abbr title="Hypertext Mackup Language">HTML.</abbr>
                     <p>
-                        A web page may also contain images, audio, videos and software 
+                        A web page may also contain images, audio, videos and software
                         components that are rendered in the user's web browser.
                     </p>
                     <p>
@@ -60,7 +87,7 @@
 
                 <dt>Website</dt>
                 <dd>
-                    A website is a collection of web pages including multimedia, typically identified 
+                    A website is a collection of web pages including multimedia, typically identified
                     with a common domain and publish on a web server. Web pages are the building blocks
                     of a websites.
                 </dd>
@@ -71,24 +98,25 @@
                 </dd>
                 <dt>Web Browser</dt>
                 <dd>
-                    A web browser is an application that renders web pages according to the mackup 
-                    Instructions onto a display terminal or device.
+                    A web browser is an application that renders web pages according to the mackup
+                    Instructions onto a display terminal or device. Eg: Firefox, Chrome, Safari etc.
                 </dd>
-                <a href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines"
-                 type="button">Web page, Website, web server and search engine</a>
+                <a class="button" href="https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Pages_sites_servers_and_search_engines">Web
+                    page, Website, web server and search engine</a>
             </dl>
             <h2>How the web works</h2>
-            <iframe width="853" height="480"
-             src="https://www.youtube.com/embed/onzTRvuOWSM" frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            <iframe src="https://www.youtube.com/embed/onzTRvuOWSM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
             </iframe>>
-            <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works" type="button">How the web works</a>
+            <a class="button" href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/How_the_Web_works"
+                type="button">How the web works</a>
         </section>
 
         <section>
             <h2>To Do</h2>
-            <a href="exercise4.html">Exercise</a>
+            <a class="button" href="exercise4.html" type="button">Exercise</a>
         </section>
     </article>
 </body>
+
 </html>

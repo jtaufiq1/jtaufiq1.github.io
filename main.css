@@ -83,6 +83,7 @@ span {
 .button {
     font-variant: small-caps;
     color: white;
+    margin: 0 auto;
     text-align: center;
     display: inline-block;
     text-decoration: none;
@@ -100,8 +101,8 @@ span {
     background-color: green;
 }
 iframe {
-    width: 420px;
-    height: 315px;
+    height: 380px;
+    margin: 0 auto;
 }
 @media screen and (max-width: 730px) {
     body {
